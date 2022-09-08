@@ -1,0 +1,24 @@
+#tab-menu-area .tab-menu .tab-header {
+    display: flex;
+    border: 1px solid black;
+    height: 50px;
+    align-items: center;
+    background-color: cornflowerblue;
+  }
+  #tab-menu-area .tab-menu .tab-header div {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 100%;
+    padding: 5px 10px 0 10px;
+    transition: all 0.3s;
+  }
+  #tab-menu-area .tab-menu .tab-body {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  #tab-menu-area .tab-menu .active {
+    background-color: aqua;
+    color: red;
+  }
+  
